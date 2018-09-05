@@ -1,0 +1,57 @@
+body{
+	background-color: #FFFFFF;
+	padding:0px;
+	margin:0px;
+}
+
+
+.header{
+    background-color:orange;
+    height:60px;
+    line-height: 60px;
+    padding:20px;
+}
+.navigation{
+    list-style: none;
+    float: right;
+    position: relative;
+    bottom:115px;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li a{
+    font-family: Arial;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left:20px;
+    font-size:20px;
+}
+.header h1{
+    position: relative;
+    bottom:20px;
+}
+.main p{
+    margin:20px;
+    font-family: Arial;
+    line-height: 25px;
+}
+.content{
+    width:70%;
+    float:left;
+    background-color:rgb(228, 228, 228);
+    position: relative;
+    bottom:23px;
+    height:500px;
+}
+
+.sidebar{
+    width:30%;
+    float: left;
+    background-color:#414141;
+    color:white;
+    position: relative;
+    bottom:116px;
+    height: 500px;
+}
