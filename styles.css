@@ -51,7 +51,42 @@ body{
     float: left;
     background-color:#414141;
     color:white;
+    height: 500px;
     position: relative;
     bottom:116px;
+    
+}
+
+.blog-post{
+    width:70%;
+    float:left;
+    background-color:white;
+    border: 0.5px solid rgb(161, 161, 161);
+    box-shadow: 0 0 0 10px rgb(233,233,233);
+    height:200px;
+    position: relative;
+    left:10px;
+    bottom:11px;
+}
+
+
+.blog-post p{
+    padding:10px;
+}
+.sidebar2{
+    width:28.9%;
+    float: right;
+    background-color:#414141;
+    color:white;
     height: 500px;
+    position: relative;
+    bottom:525px;
+
+}
+
+.blog-post img{
+    float:left;
+}
+#firstbox{
+    height:300px;
 }
